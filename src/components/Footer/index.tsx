@@ -5,6 +5,8 @@ import IconPhone from "./assets/IconPhone.svg"
 import CompanyLogo from "./assets/CompanyLogo.svg"
 import LinkToSocialMedia from './components/LinkSocialMedia'
 
+// Comentário deve ser apagado
+
 const Footer = () => {
     return (
         <FooterContainer>
