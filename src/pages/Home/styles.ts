@@ -148,10 +148,12 @@ export const CardsContainer = styled.div`
   /* Estilos para dispositivos móveis */
   padding: 1rem;
   display: flex;
+  flex-direction: row; // Os cartões serão alinhados horizontalmente
   gap: 1.5rem;
   overflow-x: auto;
   width: 100%;
 
+  /* Estilos para ocultar a barra de rolagem */
   &::-webkit-scrollbar {
     display: none;
   }
@@ -161,11 +163,11 @@ export const CardsContainer = styled.div`
 
   /* Estilos para web (tela maior que 768px) */
   @media (min-width: 768px) {
+    justify-content: space-around; // Espaço ao redor dos cartões em telas grandes
     overflow-x: hidden;  /* Desabilita o scroll horizontal */
-    white-space: normal;  /* Permite quebra de linha */
-    flex-direction: row;
   }
 `;
+
 
 export const InfoContainer = styled.div`
   display: flex;

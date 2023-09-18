@@ -8,18 +8,18 @@ export const FooterContainer = styled.footer`
   justify-content: center;
   padding: 2rem;
   flex-direction: row;
-  gap: 12rem;
+  gap: 8rem; 
 
-  @media (max-width: 768px) {
-    height: 50rem;
+  @media (max-width: 900px) { 
     flex-direction: column-reverse;
-    gap: 2rem;
-    
-    .CompanyLogo{
+    height: 50rem;
+
+    .CompanyLogo {
         width: 23rem;
     }
   }
 `;
+
 
 export const SocialMediaContainer = styled.div`
   display: flex;

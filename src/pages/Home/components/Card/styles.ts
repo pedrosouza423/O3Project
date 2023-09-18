@@ -6,6 +6,8 @@ export const CardContainer = styled.aside`
     overflow: hidden;
     min-width: 323px;
     min-height: 450px;
+    max-width: 323px;
+    
     background-color: ${(props) => props.theme['gray-500']};
 `;
 
